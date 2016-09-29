@@ -23,10 +23,21 @@ class ViewController: UIViewController {
         }
     }
     
+    var displayValue :Double {
+        get {
+            return Double(display.text!)!
+        }
+        set {
+            display.text = String(newValue)
+        }
+    }
+    
     @IBAction func performOperation(_ sender: UIButton) {
         if let operation = sender.currentTitle {
             if operation == "π" {
-                display.text? = String(M_PI)
+                displayValue = M_PI
+            }else if operation == "√" {
+                displayValue = sqrt(displayValue)
             }
         }
     }
