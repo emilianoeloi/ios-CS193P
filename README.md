@@ -14,3 +14,5 @@ Offered by Stanford's School of Engineering.
 ### [Lecture 1](https://github.com/emilianoeloi/ios-CS193P/tree/master/ios-cs193p-Calculator)
 
 ### [Lecture 2](https://github.com/emilianoeloi/ios-CS193P/tree/master/ios-cs193p-CalculatorBrain)
+
+### [Lecture 3](https://github.com/emilianoeloi/ios-CS193P/tree/master/ios-cs193p-Swift)
